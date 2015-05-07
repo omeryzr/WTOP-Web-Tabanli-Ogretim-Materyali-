@@ -1,0 +1,408 @@
+{% include 'header.html' %}
+{% include 'sidebar.html' %}
+{% if request.user.is_authenticated %}
+<div class="container">
+    <div class="span3 well">
+
+        <a href=""><img src="/static/images/add_user.png" name="aboutme" width="140" height="140" class="img-circle"></a>
+        <h3>{{ request.user.username }}</h3>
+        <em>Dernek Üyesi</em>
+
+    </div>
+    
+
+<ul class="nav nav-tabs" role="tablist" id="myTab">
+  <li class="active"><a href="#kbilgi" role="tab" data-toggle="tab">Kişisel Bilgilerim</a></li>
+  <li><a href="#kulbilgi" role="tab" data-toggle="tab">Kullanıcı Bilgilerim</a></li>
+  <li><a href="#bankabilgi" role="tab" data-toggle="tab">Banka Hesap Bilgilerim</a></li>
+  <li><a href="#kredibilgi" role="tab" data-toggle="tab">Kredi Bilgilerim</a></li>
+  <li><a href="#birikimbilgi" role="tab" data-toggle="tab">Birikim Bilgilerim</a></li>
+  <li><a href="#odentibilgi" role="tab" data-toggle="tab">Ödenti Bilgilerim</a></li>
+</ul>
+
+<div class="tab-content">
+	<div class="tab-pane active" id="kbilgi">
+
+<div class="container">
+      <div class="row">
+      
+        <div class="col-xs-12" >
+   
+   
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Ömer Yazır</h3>
+            </div>
+            
+              <div class="row">
+                
+                
+             
+                <div class=" col-md-9 col-lg-9 "> 
+                  <table class="table table-user-information">
+                    <tbody>
+                      <tr>
+                        <td>Department:</td>
+                        <td>Yazılım Mühendisi</td>
+                      </tr>
+                      <tr>
+                        <td>TC Kimlik Numarası</td>
+                        <td>12345678901</td>
+                      </tr>
+                      <tr>
+                        <td>Cinsiyet</td>
+                        <td>Erkek</td>
+                      </tr>
+                      <tr>
+                        <td>Doğum Yeri</td>
+                        <td>------</td>
+                      </tr>
+                      <tr>
+                        <td>Doğum Tarihi</td>
+                        <td>00/00/00</td>
+                      </tr>
+                      <tr>
+                        <td>Baba Adı</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Ana Adı</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Kayıtlı il</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Kayıtlı ilçe</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Mahalle / Köy</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Cilt No</td>
+                        <td>---</td>
+                      </tr>
+                      <tr>
+                        <td>Aile Sıra No</td>
+                        <td>-------</td>
+                      </tr>
+                      <tr>
+                        <td>Sıra No</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Kan Grubu</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Yabancı Dil</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Eğitim Grubu</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Üniversiteki Göreviniz</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Görev Yeri</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Ayrılma Sebebi</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Emekli Tarihi</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Emekli Kurumu</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Ev Adresi</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>İş Adresi</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>Ev Telefonu</td>
+                        <td>-----</td>
+                      </tr>
+                      <tr>
+                        <td>İş Telefonu</td>
+                        <td>-----</td>
+                      </tr>
+                       
+                     
+                    
+                  </table>
+                
+                </div>
+              </div>
+            </div>
+                 <div class="panel-footer">
+                        <a href="iletisim.html" data-original-title="Mesaj Gönder" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i></a>
+                        
+                            
+                    </div>
+            
+          </div>
+        </div>
+      </div>
+
+	</div>
+	<div class="tab-pane" id="kulbilgi">
+
+	
+<div class="container">
+      <div class="row">
+      
+        <div class="col-xs-12" >
+   
+   
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Ömer Yazır</h3>
+            </div>
+            
+              <div class="row">
+               
+                
+             
+                <div class=" col-md-9 col-lg-9 "> 
+                  <table class="table table-user-information">
+                    <tbody>
+                      
+                        <tr>
+                        <td>E-posta </td>
+                        <td>omer@gmail.com</td>
+                      </tr>
+
+                      <tr>
+                        <td>Dernek Üye Türü </td>
+                        <td>omer@gmail.com</td>
+                      </tr>
+                     
+                    
+                  </table>
+                
+                </div>
+              </div>
+            </div>
+                 <div class="panel-footer">
+                        <a href="iletisim.html" data-original-title="Mesaj Gönder" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i></a>
+                        
+                            
+                    </div>
+            
+          </div>
+        </div>
+      </div>
+
+	</div>	
+
+
+	
+  <div class="tab-pane" id="bankabilgi">
+
+<div class="container">
+      <div class="row">
+      
+        <div class="col-xs-12" >
+   
+   
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Ömer Yazır</h3>
+            </div>
+            
+              <div class="row">
+               
+                
+             
+                <div class=" col-md-9 col-lg-9 "> 
+                  <table class="table table-user-information">
+                    <tbody>
+                      
+                        <tr>
+                        <td>Banka İsmi </td>
+                        <td>Ziraat Bankası</td>
+                      </tr>
+
+                      <tr>
+                        <td>Hesap Numarası </td>
+                        <td>12345678912</td>
+                      </tr>
+                      <tr>
+                        <td>İban No </td>
+                        <td>TR1252</td>
+                      </tr>
+                      <tr>
+                        <td>Banka Şube No</td>
+                        <td>1254856</td>
+                      </tr>
+                     
+                    
+                  </table>
+                
+                </div>
+              </div>
+            </div>
+                 <div class="panel-footer">
+                        <a href="iletisim.html" data-original-title="Mesaj Gönder" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i></a>
+                        
+                            
+                    </div>
+            
+          </div>
+        </div>
+      </div>
+
+	</div>	
+
+  <div class="tab-pane" id="kredibilgi"><div class="container">
+
+         <hr>
+              <div class="row">
+
+        <div class="panel panel-primary filterable">
+            <div class="panel-heading">
+                <h3 class="panel-title">Kredi Listem</h3>
+                <div class="pull-right">
+                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span>Filtrelemeyi Kullan</button>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr class="filters">
+                        <th><input type="text" class="form-control" placeholder="#" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Kredi Miktarı" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Kredi Tarihi" disabled></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>1.000.00</td>
+			<td>01/01/2014</td>
+                      </tr>
+			<tr>
+             		<td>2</td>
+                        <td>500.00</td>
+                        <td>02/02/2014</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>3</td>
+                        <td>250.00</td>
+                        <td>03/03/2014</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div></div>
+  <div class="tab-pane" id="birikimbilgi"><div class="container">
+
+         <hr>
+              <div class="row">
+
+        <div class="panel panel-primary filterable">
+            <div class="panel-heading">
+                <h3 class="panel-title">Birikim Listem</h3>
+                <div class="pull-right">
+                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span>Filtrelemeyi Kullan</button>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr class="filters">
+                        <th><input type="text" class="form-control" placeholder="#" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Birikim Miktarı" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Birikim Tarihi" disabled></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>1.000.00</td>
+			<td>01/01/2014</td>
+                      </tr>
+			<tr>
+             		<td>2</td>
+                        <td>500.00</td>
+                        <td>02/02/2014</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>3</td>
+                        <td>250.00</td>
+                        <td>03/03/2014</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div></div>
+  <div class="tab-pane" id="odentibilgi"><div class="container">
+
+         <hr>
+              <div class="row">
+
+        <div class="panel panel-primary filterable">
+            <div class="panel-heading">
+                <h3 class="panel-title">Ödenti Listem</h3>
+                <div class="pull-right">
+                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span>Filtrelemeyi Kullan</button>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr class="filters">
+                        <th><input type="text" class="form-control" placeholder="#" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Ödenti Miktarı" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Ödenti Tarihi" disabled></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>1.000.00</td>
+			<td>01/01/2014</td>
+                      </tr>
+			<tr>
+             		<td>2</td>
+                        <td>500.00</td>
+                        <td>02/02/2014</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>3</td>
+                        <td>250.00</td>
+                        <td>03/03/2014</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+  
+{% endif %}
+{% include 'footer.html' %}
